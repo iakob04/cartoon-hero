@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: #f57f25;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+header h1{
+	color: white;
+	font-family: Recoleta;
+}
+header h2{
+	color: #27348B;
+	font-family: Recoleta;
+	font-size: 18px;
+}
+
+header img{
+	border-radius: 200px;
+	width: 300px;
+	border: 20px solid #28348A;
+}
