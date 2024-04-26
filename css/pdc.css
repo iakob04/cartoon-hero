@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: Recoleta;
 }
 
 header{
@@ -12,11 +13,9 @@ header{
 
 header h1{
 	color: white;
-	font-family: Recoleta;
 }
 header h2{
 	color: #27348B;
-	font-family: Recoleta;
 	font-size: 18px;
 }
 
