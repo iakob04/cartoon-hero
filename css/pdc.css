@@ -1,6 +1,8 @@
 body{
 	margin: 0;
-	font-family: Recoleta;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	line-height: 45px;
 }
 
 header{
@@ -11,9 +13,18 @@ header{
 
 }
 
-header h1{
-	color: white;
+h1,h2{
+	font-family: Recoleta;
 }
+
+
+}
+
+header h1{
+	color: #27348B;
+	font-size: 50px ;
+}
+
 header h2{
 	color: #27348B;
 	font-size: 18px;
@@ -23,4 +34,46 @@ header img{
 	border-radius: 200px;
 	width: 300px;
 	border: 20px solid #28348A;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 22px;
+}
+
+
+main img{
+	max-width: 100%;
+}
+
+a{
+	color: #f57f25;
+}
+a:hover{
+	background-color: #27348B;
+	color: #f57f25;
+}
+
+footer{
+	background-color: #f57f25;
+	text-align: center;
+	padding: 50px;
+	color: whitesmoke;
+
+}
+
+footer p{
+	margin: 0px;
+}
+
+footer a{
+	color: whitesmoke;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 0px;
 }
